@@ -1,0 +1,7 @@
+package com.example.fullstack.server;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface ModalInterface extends MongoRepository<T, ID> {
+
+}
